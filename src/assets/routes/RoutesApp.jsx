@@ -3,7 +3,7 @@ import Home from '../pages/Home';
 import Favoritos from '../pages/Favoritos';
 import DetalleProducto from '../pages/DetalleProducto';
 import FormularioProducto from '../components/FormularioProducto';
-import Errorpagina from '../pages/Errorpagina';
+import Errorpagina from '../pages/ErrorPagina';
 import InicioSesion from '../pages/InicioSesion';
 import UserValidacionURL from '../hooks/UserValidacionURL';
 import Papelera from '../pages/Papelera';
