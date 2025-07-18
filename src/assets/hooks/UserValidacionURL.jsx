@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { AutorizarContext } from '../context/AutorizacionesContext.jsx';
-import Errorpagina from '../pages/Errorpagina.jsx';
+import Errorpagina from '../pages/ErrorPagina.jsx';
 
 const UserValidacionURL = ({ children, rol }) => {
   const { usuarioActual } = useContext(AutorizarContext);
