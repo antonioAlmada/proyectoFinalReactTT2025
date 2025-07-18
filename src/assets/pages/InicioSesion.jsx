@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AutorizarContext } from '../context/AutorizacionesContext.jsx';
-import validarUsuario from '../hooks/ValidacionUser.js';
+import validarUsuario from '../hooks/validacionUser.js';
 import LoginForm from '../components/LoginForm.jsx';
 import '../css/IniciarSesion.css';
 

@@ -5,7 +5,7 @@ import DetalleProducto from '../pages/DetalleProducto';
 import FormularioProducto from '../components/FormularioProducto';
 import Errorpagina from '../pages/Errorpagina';
 import InicioSesion from '../pages/InicioSesion';
-import UserValidacionURL from '../hooks/userValidacionURL';
+import UserValidacionURL from '../hooks/UserValidacionURL';
 import Papelera from '../pages/Papelera';
 import PaginaAcercaDe from '../pages/PaginaAcercaDe';
 
