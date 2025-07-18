@@ -1,0 +1,41 @@
+.acerca-de-container {
+  padding: 2rem 0;
+}
+
+.acerca-de-container h1 {
+  color: #13c18d;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 4px 16px rgba(0,0,0,0.18);
+}
+.acerca-de-container h2 {
+  color: #0d413e;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.descripcion-proyecto {
+  background: #e6f9f3;
+  border-radius: 12px;
+  padding: 1.2rem;
+  color: #0d413e;
+  margin-bottom: 2rem;
+}
+.tecnologias-usadas ul {
+  background: #f6f7f6;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  color: #137158;
+}
+.tecnologias-usadas li {
+  margin-bottom: 0.5rem;
+}
+.contacto {
+  margin-top: 2.5rem;
+  background: #e6f9f3;
+  border-radius: 10px;
+  padding: 1.2rem;
+  color: #0d413e;
+}

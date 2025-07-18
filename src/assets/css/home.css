@@ -1,0 +1,53 @@
+carousel-img-fija {
+  height: 300px;
+  object-fit: cover;
+}
+.cards-container {
+  padding:  0 2rem; /* 2rem de padding a izquierda y derecha */
+  margin-top: 2rem;
+}
+/* Wrapper para las cards con distribución horizontal */
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* espacio entre cards */
+}
+
+/* Estilo de sombra suave al hacer hover */
+.card-producto:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+.card-wrapper {
+  transition: box-shadow 0.3s ease;
+}
+
+/* Sombra suave al pasar el mouse */
+.card-wrapper:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px; /* opcional, solo si te gusta */
+}
+
+@media (max-width: 576px) {
+  .carousel-img-fija {
+    height: 140px !important;
+  }
+  .cards-container {
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .card {
+    width: 100% !important;
+    min-width: unset;
+    margin: 0 auto 1rem auto;
+  }
+  .card .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
