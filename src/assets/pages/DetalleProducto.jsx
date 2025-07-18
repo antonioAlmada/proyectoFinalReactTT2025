@@ -2,7 +2,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { ProductoContext } from '../context/ProductoContext.jsx';
 import { AutorizarContext } from '../context/AutorizacionesContext.jsx';
-import '../css/detalleProducto.css';
+import '../css/detalleproducto.css';
 
 const DetalleProducto = () => {
   // Obtiene el ID del producto desde la URL
